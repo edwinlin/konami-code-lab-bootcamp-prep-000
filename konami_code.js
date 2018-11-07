@@ -26,16 +26,18 @@ function init() {
         counter += 1
         console.log(counter)
 
-        if(counter === codes.length){
-          counter = 0
-          alert("Hurray!")
-          console.log("Hurray!")
-        }
 
       }else{
         counter = 0
         console.log('back to 0')
       }
+      
+      if(counter === codes.length){
+        counter = 0
+        alert("Hurray!")
+        console.log("Hurray!")
+      }
+
   }
 
   body.addEventListener('keydown', onKeyDownHandler);
