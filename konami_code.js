@@ -29,7 +29,7 @@ function init() {
         if(counter === codes.length){
           counter = 0
           alert("Hurray!")
-          // windows.alert("Hurray!")
+          windows.alert("Hurray!")
           console.log("Hurray!")
         }
 
