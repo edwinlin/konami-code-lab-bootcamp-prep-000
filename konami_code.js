@@ -17,7 +17,7 @@ function init() {
   
   let counter = 0
 
-  body.addEventListener('keydown', function(e){
+function onKey(e){
     console.log(e.key)
 
       const key = e.key;
@@ -36,8 +36,7 @@ function init() {
         counter = 0
         console.log('back to 0')
       }
+  }
 
-    
-  });
-  
+  body.addEventListener('keydown', onKey);
 }
