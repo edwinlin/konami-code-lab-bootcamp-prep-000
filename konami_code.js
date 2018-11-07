@@ -15,7 +15,7 @@ function init() {
   // your code here
   var body = document.body
   
-  let counter = 0
+  // let counter = 0
   let idx = 0
 
   function onKeyDownHandler(e){
