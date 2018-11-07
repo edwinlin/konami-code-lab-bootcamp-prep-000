@@ -28,7 +28,7 @@ function init() {
 
         if(counter === codes.length){
           counter = 0
-          windows.alert("Hurray!")
+          alert("Hurray!")
           console.log("Hurray!")
         }
 
