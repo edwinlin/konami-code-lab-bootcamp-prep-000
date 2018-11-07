@@ -26,7 +26,6 @@ function init() {
         counter += 1
         console.log(counter)
 
-
       }else{
         counter = 0
         console.log('back to 0')
@@ -37,7 +36,6 @@ function init() {
         window.alert("Hurray!")
         console.log("Hurray!")
       }
-
   }
 
   body.addEventListener('keydown', onKeyDownHandler);
