@@ -16,18 +16,26 @@ function init() {
   var body = document.body
   
   let counter = 0
-  let idx = 0
 
   function onKeyDownHandler(e){
-    const key = e.key
+    console.log(e.key)
 
-    idx = (codes[idx] === key) ? ++idx : 0
+    const key = e.key;
 
+      if(key === codes[counter]){
+        counter += 1
+        console.log(counter)
 
-    if (idx === codes.length) {
-      alert("Hurray!");
-      idx = 0
-    }
+        if(counter === codes.length){
+          counter = 0
+          alert("Hurray!")
+          console.log("Hurray!")
+        }
+
+      }else{
+        counter = 0
+        console.log('back to 0')
+      }
   }
 
   body.addEventListener('keydown', onKeyDownHandler);
