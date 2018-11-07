@@ -17,10 +17,10 @@ function init() {
   
   let counter = 0
 
-function onKey(e){
+  function onKey(e){
     console.log(e.key)
 
-      const key = e.key;
+    const key = e.key;
 
       if(key === codes[counter]){
         counter += 1
